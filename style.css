@@ -1,0 +1,159 @@
+/*---------------------------------fit on one page ----------------------------------------------------------*/
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/*----------------------------------- main ----------------------------------------------------------*/
+.center {
+    margin: auto;
+}
+
+.google {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    }
+
+form {
+    margin: auto; 
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    padding: 0px, 40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201, 202, 201, 0.973);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+/*----------------------------------- search ----------------------------------------------------------*/
+.searchbutt {
+    background-color:#f1ededec;
+    width: 130px;
+    height: 40px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 420px;
+}
+
+.searchbutt:hover {
+    color: black;
+    border: solid rgb(206, 206, 207) .5px;
+}
+
+.micbutt {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(900%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.magbutt {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+/*----------------------------------- navbar ----------------------------------------------------------*/
+.nav {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.leftalign {
+    float: left;
+}
+
+.rightalign {
+    float: right;
+}
+
+.signin {
+    background-color:#4285f4;
+    width: 75px;
+    height: 30px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+ }
+/*----------------------------------- list ----------------------------------------------------------*/
+li {
+    display: inline; 
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 5px;
+    vertical-align: middle;
+    color: rgb(99, 99, 100);
+}
+
+li a {
+    color: rgb(99, 99, 100);
+    text-decoration: none; 
+    padding-right: 5px;
+    text-decoration: none;
+  }
+
+li a:hover {
+     text-decoration: underline;
+  }
+
+
+/*----------------------------------- footer ----------------------------------------------------------*/
+
+footer {
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: .5px;
+    padding-bottom: 30px;
+    border-width: .5pt;
+    border-style: solid;
+    border-color: rgb(236, 235, 235)
+}
+
+.footerLeft {
+    float: left;
+    padding-left: 20px;
+}
+
+.footerRight {
+    float: right;
+    padding-right: 20px; 
+}
+
+.grey {
+    color: rgb(99, 99, 100);
+}
